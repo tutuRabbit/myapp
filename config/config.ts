@@ -349,6 +349,13 @@ export default defineConfig({
     type: 'none',
   },
   mfsu: {},
+  extraPostCSSPlugins: [
+    require('postcss-import'),
+    require('tailwindcss')({
+      config: './tailwind.config.js',
+    }),
+    require('postcss-nested'),
+  ],
   webpack5: {},
   exportStatic: {},
 });
