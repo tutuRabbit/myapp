@@ -110,13 +110,13 @@
     "jsdom-global": "^3.0.2",
     "lint-staged": "^10.0.0",
     "mockjs": "^1.0.1-beta3",
+    "postcss": "7.x",
+    "postcss-import": "12.x",
     "prettier": "^2.3.2",
     "puppeteer-core": "^8.0.0",
     "stylelint": "^13.0.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "typescript": "^4.2.2",
-    "postcss": "7.x",
-    "postcss-import": "12.x"
+    "typescript": "^4.2.2"
   },
   "engines": {
     "node": ">=10.0.0"
